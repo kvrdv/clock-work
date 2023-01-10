@@ -3,15 +3,29 @@
   src: url(./fonts/irra.ttf);
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
 body {
   font-family: 'irra', sans-serif;
-  font-size: 48px;
-
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
   background-color: #2d3142;
+}
+
+.header {
+  font-size: 20px;
+  color: #bfc0c0;
+  border-bottom: 3px solid #bfc0c0;
+}
+
+.square {
+  border-top: 1px solid #bfc0c0;
+  border-bottom: 1px solid #bfc0c0;
 }
 
 .row {
@@ -21,6 +35,7 @@ body {
 }
 
 .cell {
+  font-size: 48px;
   width: 55px;
   height: 50px;
   display: flex;
@@ -33,5 +48,20 @@ body {
 }
 
 .on {
+  color: #bfc0c0;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #4f5d75;
+  display: flex;
+  flex-direction: row;
+  border-top: 3px solid #bfc0c0;
+}
+
+.footer > p > a {
+  color: #4f5d75;
+  text-decoration: none;
   color: #bfc0c0;
 }

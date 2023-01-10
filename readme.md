@@ -3,7 +3,7 @@ Space Cadet --> #2d3142
 Black Coral --> #4f5d75
 Silver --> #bfc0c0
 
-// row-1 --> it, is, am, pm
+// row-1 --> it, is
 // row-2 --> quarter
 // row-3 --> twenty, five
 // row-4 --> half, ten, to
