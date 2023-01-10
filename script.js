@@ -3,7 +3,7 @@ const wordIs = [...document.getElementsByClassName('word-is')]; // row-1
 const wordQuarter = [...document.getElementsByClassName('word-quarter')]; // row-2
 const wordTwenty = [...document.getElementsByClassName('word-twenty')]; // row-3
 const wordTwentyFive = [...document.getElementsByClassName('word-twenty-five')]; // row-3
-const wordFive = [...document.getElementsByClassName('word-five')]; // row-7
+const wordFive1 = [...document.getElementsByClassName('word-five-1')]; // row-3
 const wordHalf = [...document.getElementsByClassName('word-half')]; // row-4
 const wordTen1 = [...document.getElementsByClassName('word-ten-1')]; // row-4
 const wordTo = [...document.getElementsByClassName('word-to')]; // row-4
@@ -13,6 +13,7 @@ const wordOne = [...document.getElementsByClassName('word-one')]; // row-6
 const wordSix = [...document.getElementsByClassName('word-six')]; // row-6
 const wordThree = [...document.getElementsByClassName('word-three')]; // row-6
 const wordFour = [...document.getElementsByClassName('word-four')]; // row-7
+const wordFive2 = [...document.getElementsByClassName('word-five-2')]; // row-7
 const wordTwo = [...document.getElementsByClassName('word-two')]; // row-7
 const wordEight = [...document.getElementsByClassName('word-eight')]; // row-8
 const wordEleven = [...document.getElementsByClassName('word-eleven')]; // row-8
@@ -71,7 +72,7 @@ function showTime() {
       });
       break;
     case 5:
-      wordFive.forEach(element => {
+      wordFive2.forEach(element => {
         element.classList.toggle('on');
       });
       break;
@@ -122,7 +123,7 @@ function showTime() {
     case 5:
     case 6:
     case 7:
-      wordFive.forEach(element => {
+      wordFive1.forEach(element => {
         element.classList.toggle('on');
       });
       wordPast.forEach(element => {
@@ -242,7 +243,7 @@ function showTime() {
     case 55:
     case 56:
     case 57:
-      wordFive.forEach(element => {
+      wordFive1.forEach(element => {
         element.classList.toggle('on');
       });
       wordTo.forEach(element => {
