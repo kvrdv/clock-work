@@ -1,20 +1,23 @@
 @font-face {
   font-family: irra;
-  src: url(./fonts/irra.ttf);
+  src: url(../../fonts/irra.ttf);
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(./fonts/Roboto-Regular.ttf);
+  src: url(../../fonts/Roboto-Regular.ttf);
 }
 
 body {
+  background-color: #2d3142;
+}
+
+.App {
   font-family: 'irra', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2d3142;
 }
 
 .header {
@@ -49,6 +52,10 @@ body {
 
 .on {
   color: #bfc0c0;
+}
+
+.am-pm {
+  color: #211e0c;
 }
 
 .footer {
