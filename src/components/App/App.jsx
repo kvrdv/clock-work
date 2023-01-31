@@ -50,27 +50,27 @@ function App() {
     setMinutes(minutesTmp);
   }
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      getTime();
-    }, 2000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     getTime();
+  //   }, 2000);
 
-    return () => clearInterval(interval);
-  },[]);
+  //   return () => clearInterval(interval);
+  // },[]);
 
   useEffect(() => {
     getTime();
   },[]);
 
-  if (noon) {
-    wordPm.forEach(element => {
-      element.classList.toggle('am-pm');
-    });  
-  } else {
-    wordAm.forEach(element => {
-      element.classList.toggle('am-pm');
-    });
-  }
+  // if (noon) {
+  //   wordPm.forEach(element => {
+  //     element.classList.toggle('am-pm');
+  //   });  
+  // } else {
+  //   wordAm.forEach(element => {
+  //     element.classList.toggle('am-pm');
+  //   });
+  // }
 
   wordIt.forEach(element => {
     element.classList.toggle('on');

@@ -52,6 +52,7 @@ body {
 
 .on {
   color: #bfc0c0;
+  transition: all 1s ease;
 }
 
 .am-pm {
