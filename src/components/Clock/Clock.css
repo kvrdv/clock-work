@@ -1,0 +1,28 @@
+.square {
+    border-top: 1px solid #bfc0c0;
+    border-bottom: 1px solid #bfc0c0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.cell {
+    font-size: 48px;
+    width: 55px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    color: #4f5d75;
+    text-transform: uppercase;
+}
+
+.on {
+    color: #bfc0c0;
+    transition: all 1s ease;
+}

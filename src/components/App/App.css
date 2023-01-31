@@ -1,75 +1,21 @@
 @font-face {
-  font-family: irra;
-  src: url(../../fonts/irra.ttf);
+    font-family: irra;
+    src: url(../../fonts/irra.ttf);
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(../../fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+    src: url(../../fonts/Roboto-Regular.ttf);
 }
 
 body {
-  background-color: #2d3142;
+    background-color: #2d3142;
 }
 
-.App {
-  font-family: 'irra', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header {
-  font-size: 20px;
-  color: #bfc0c0;
-  border-bottom: 3px solid #bfc0c0;
-}
-
-.square {
-  border-top: 1px solid #bfc0c0;
-  border-bottom: 1px solid #bfc0c0;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-}
-
-.cell {
-  font-size: 48px;
-  width: 55px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  color: #4f5d75;
-  text-transform: uppercase;
-}
-
-.on {
-  color: #bfc0c0;
-  transition: all 1s ease;
-}
-
-.am-pm {
-  color: #211e0c;
-}
-
-.footer {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  color: #4f5d75;
-  display: flex;
-  flex-direction: row;
-  border-top: 3px solid #bfc0c0;
-}
-
-.footer > p > a {
-  color: #4f5d75;
-  text-decoration: none;
-  color: #bfc0c0;
+.app {
+    font-family: 'irra', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
