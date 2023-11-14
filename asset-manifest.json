@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/clock-work/static/css/main.8ae487df.css",
+    "main.js": "/clock-work/static/js/main.81115f57.js",
+    "static/media/irra.ttf": "/clock-work/static/media/irra.07345b227a17089a10f8.ttf",
+    "index.html": "/clock-work/index.html",
+    "main.8ae487df.css.map": "/clock-work/static/css/main.8ae487df.css.map",
+    "main.81115f57.js.map": "/clock-work/static/js/main.81115f57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ae487df.css",
+    "static/js/main.81115f57.js"
+  ]
+}
