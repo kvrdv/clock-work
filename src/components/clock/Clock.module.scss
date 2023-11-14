@@ -1,0 +1,30 @@
+.clock {
+	@apply border-y-2 border-font-primary relative;
+
+	.row {
+		@apply flex flex-row mb-3 opacity-100;
+		animation: letterColor 1.5s 1.5s;
+
+		.letter {
+			@apply text-5xl font-irra w-14 h-12 flex justify-center items-center uppercase;
+		}
+
+		.active {
+			@apply text-font-primary;
+		}
+	}
+}
+
+@keyframes letterColor {
+	0% {
+		@apply text-font-secondary;
+	}
+
+	50% {
+		@apply text-font-primary;
+	}
+
+	100% {
+		@apply text-font-secondary;
+	}
+}

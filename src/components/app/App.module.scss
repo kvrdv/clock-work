@@ -1,0 +1,17 @@
+@import '../../assets/styles/globals.scss';
+
+.app {
+	@apply flex flex-col justify-center items-center h-screen;
+
+	.header {
+		@apply text-font-primary flex justify-between text-5xl border-b-4 border-font-primary uppercase font-irra;
+	}
+
+	.footer {
+		@apply text-sm text-font-secondary flex flex-row border-t-4 border-font-primary;
+
+		> p > a {
+			@apply text-font-primary no-underline;
+		}
+	}
+}

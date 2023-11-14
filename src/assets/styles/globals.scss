@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+	--bg-primary: #2d3142;
+	--font-primary: #bfc0c0;
+	--font-secondary: #4f5d75;
+}
+
+@font-face {
+    font-family: irra;
+    src: url(../fonts/irra.ttf);
+}
+
+body {
+	@apply bg-bg-primary transition-all text-font-secondary;
+}
